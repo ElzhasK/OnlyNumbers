@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(224, 229, 234);
+}
+
+.text {
+  font-size: 30px;
+  color: #008b8b;
+  font-family: cursive;
+}
+
+#input {
+  padding: 12px 20px;
+  color: #008b8b;
+  font-size: 18px;
+  transition: 0.5s;
+  outline: none;
+}
+
+#input:focus {
+  border: 3px solid #555;
+}
+
+.btn {
+  background-color: #7cfc00;
+  border: 2px solid #7cfc00;
+  padding: 12px 12px;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #75c02b;
+  border: 2px solid #75c02b;
+  transition: 0.6s;
+}
